@@ -7,9 +7,10 @@
     <link rel="stylesheet" th:href="@{/css/board.css}">
 </head>
 <body>
+
     <!-- HEADER -->
     <div th:insert="common/header.html" id="header"></div>
-
+    <div class="con">
     <a th:href="@{/post}">글쓰기</a>
 
     <table>
@@ -60,7 +61,7 @@
 
         <button>검색하기</button>
     </form>
-
+    </div>
     <!-- FOOTER -->
     <div th:insert="common/footer.html" id="footer"></div>
 </body>
