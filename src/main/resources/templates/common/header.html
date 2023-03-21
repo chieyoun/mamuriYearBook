@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mamuri</title>
     <style>
+
         @font-face {
             font-family: 'KCC-Ganpan';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
@@ -14,12 +15,16 @@
             font-style: normal;
         }
 
+
         * {
             margin: 0;
         }
 
-        .con {
-            margin: 30px;
+        html,
+        body {
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
         }
 
         header {
@@ -59,9 +64,10 @@
         }
 
         header {
-            background: black;
-            padding: 10px;
-        }
+        height: 60px;
+        background-color: black;
+      }
+
 
         a {
             display: block;
@@ -85,6 +91,16 @@
         *:before,
         *:after {
             box-sizing: inherit;
+        }
+
+        #wrap {
+            min-height: calc(100% - 120px);
+            padding: 30px;
+        }
+
+        footer {
+            height: 60px;
+            background-color: #e9eaed;
         }
     </style>
 </head>

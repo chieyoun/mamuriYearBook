@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0e69d0-a937-4231-b2bc-e61888bab484" name="Changes" comment="templates update(header, footer)">
+    <list default="true" id="1e0e69d0-a937-4231-b2bc-e61888bab484" name="Changes" comment="??">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/common/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/board/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679302445160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="templates update(contents margin)">
+      <created>1679302729142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679302729142</updated>
+    </task>
+    <task id="LOCAL-00005" summary="??">
+      <created>1679302767353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679302767353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hh" />
     <MESSAGE value="templates update(header, footer)" />
-    <option name="LAST_COMMIT_MESSAGE" value="templates update(header, footer)" />
+    <MESSAGE value="templates update(contents margin)" />
+    <MESSAGE value="??" />
+    <option name="LAST_COMMIT_MESSAGE" value="??" />
   </component>
 </project>
