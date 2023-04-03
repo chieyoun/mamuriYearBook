@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,6 +9,7 @@
 <body>
     <form  action="/post" method="post">
         제목 : <input type="text" name="title"> <br>
+<!--        <span type="text" name="writer" sec:authentication="principal.user.name">XXX</span>-->
         작성자 : <input type="text" name="writer"> <br>
         <textarea name="content"></textarea><br>
 

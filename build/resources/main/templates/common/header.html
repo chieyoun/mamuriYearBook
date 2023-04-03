@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 
 <head>
     <meta charset="UTF-8">
@@ -131,8 +132,13 @@
             <h1>🎓 마무리</h1>
             <nav>
                 <ul>
+<!--                    <li><a class="moveBtn" href="./">🍔</a></li>-->
+                    <li><p sec:authorize="isAnonymous()"><a th:href="@{/login}">로그인</a></p></li>
+                    <li><p sec:authorize="isAuthenticated()"><a th:href="@{/logout}">로그아웃</a></p></li>
+                    <li> <p><a th:href="@{/user/add}">회원가입</a></p></li>
+<!--                    <li><p><a href="sub">서브 페이지</a></p></li>-->
 
-                    <li><a class="moveBtn" href="#">🍔</a></li>
+
                 </ul>
             </nav>
         </a>

@@ -85,5 +85,9 @@ public class BoardController {
 
         return "board/list.html";
     }
+    @GetMapping("/login")
+    public String login(){
+        return "account/login";
+    }
 
 }
