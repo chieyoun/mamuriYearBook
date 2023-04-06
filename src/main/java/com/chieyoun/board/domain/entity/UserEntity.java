@@ -100,7 +100,6 @@ public class UserEntity {
     public void setWithdrawTime(Date withdrawTime) {
         this.withdrawTime = withdrawTime;
     }
-
     public static UserEntity build(User user) {
         UserEntity entity = new UserEntity();
 
@@ -116,4 +115,5 @@ public class UserEntity {
 
         return entity;
     }
+
 }

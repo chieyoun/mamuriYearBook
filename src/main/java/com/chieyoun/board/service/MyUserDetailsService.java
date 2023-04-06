@@ -3,6 +3,8 @@ package com.chieyoun.board.service;
 
 import com.chieyoun.board.domain.MyUserDetails;
 import com.chieyoun.board.domain.User;
+import com.chieyoun.board.domain.repository.BoardRepository;
+import com.chieyoun.board.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -16,9 +18,14 @@ public class MyUserDetailsService implements UserDetailsService {
 
     private UserService userService;
 
+    private BoardRepository boardRepository;
+    private UserRepository userRepository;
+
+    /*임시계정(admin) 생성*/
     @PostConstruct
     public void prepare() {
         User user = User.build("admin", "1234", "관리자", 9);
+
         userService.add(user);
     }
 

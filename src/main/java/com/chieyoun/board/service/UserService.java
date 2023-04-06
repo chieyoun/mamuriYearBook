@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.Optional;
 
@@ -28,6 +29,9 @@ public class UserService {
         this.passwordEncoder = passwordEncoder;
     }
 
+
+
+    /*계정 추가*/
     public User add(User user) {
         UserEntity entity = UserEntity.build(user);
         entity.setRegisterTime(new Date());
@@ -38,6 +42,8 @@ public class UserService {
         return read(entity.getUserIdx());
     }
 
+
+    /*계정 읽기 idx*/
     public User read(Long userIdx) {
         Optional<UserEntity> optional = userRepository.findById(userIdx);
         if (optional.isPresent()) {
@@ -47,7 +53,7 @@ public class UserService {
             throw new IllegalArgumentException();
         }
     }
-
+    /*계정 읽기 email*/
     public User read(String email) {
         Optional<UserEntity> optional = userRepository.findByEmail(email);
         if (optional.isPresent()) {
