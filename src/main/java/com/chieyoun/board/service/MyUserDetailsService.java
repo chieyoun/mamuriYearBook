@@ -22,12 +22,12 @@ public class MyUserDetailsService implements UserDetailsService {
     private UserRepository userRepository;
 
     /*임시계정(admin) 생성*/
-    @PostConstruct
-    public void prepare() {
-        User user = User.build("admin", "1234", "관리자", 9);
-
-        userService.add(user);
-    }
+//    @PostConstruct
+//    public void prepare() {
+//        User user = User.build("admin", "1234", "관리자", 9);
+//
+//        userService.add(user);
+//    }
 
     @Autowired
     public void setUserService(UserService userService) {
