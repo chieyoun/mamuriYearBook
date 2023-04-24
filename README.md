@@ -2,7 +2,7 @@
 
 날짜: 2023년 3월 13일 → 2023년 7월 16일
 <br>
-사용 기술: css, html, js, mysql, spring<img src="https://img.shields.io/badge/Spring-#6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+사용 기술: css, html, js, mysql, spring<img src="https://img.shields.io/badge/Spring-#6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 <br>
 상태: In progress
 
