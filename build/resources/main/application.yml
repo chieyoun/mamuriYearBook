@@ -22,3 +22,6 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+app:
+  firebase-configuration-file: ./ServiceAccountKey.json
+  firebase-bucket: mamuri-2b044.appspot.com/

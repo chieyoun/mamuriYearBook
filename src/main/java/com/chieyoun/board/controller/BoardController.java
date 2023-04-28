@@ -11,7 +11,9 @@ import java.util.List;
 
 @Controller
 @AllArgsConstructor
+
 public class BoardController {
+
     private BoardService boardService;
 
     /* 게시글 목록 */
@@ -49,6 +51,9 @@ public class BoardController {
 
         return "redirect:/";
     }
+
+
+
 
 
     /* 게시글 수정 */
@@ -89,5 +94,9 @@ public class BoardController {
     public String login(){
         return "account/login";
     }
+
+
+
+
 
 }

@@ -11,9 +11,46 @@
         제목 : <input type="text" name="title"> <br>
 <!--        <span type="text" name="writer" sec:authentication="principal.user.name">XXX</span>-->
         작성자 : <input type="text" name="writer"> <br>
+        <input type="file" name="fileUpload" id="imageFileOpenInput" accept="image/*">
+        <img id="previewImg" width="700" alt="이미지 영역" />
         <textarea name="content"></textarea><br>
+
 
         <input type="submit" value="등록">
     </form>
 </body>
+<script>
+const fileInput = document.getElementById("fileUpload");
+// 또는 const fileInput = $("#fileUpload").get(0);
+
+fileInput.onchange = () => {
+  const selectedFile = fileInput.files[0];
+  console.log(selectedFile);
+};
+
+const fileInput = document.getElementById("fileUpload");
+// 또는 const fileInput = $("#fileUpload").get(0);
+
+const handleFiles = () => {
+  const selectedFile = [...fileInput.files];
+  console.log(selectedFile);
+};
+
+fileInput.addEventListener("change", handleFiles);
+
+const fileInput = document.getElementById("fileUpload");
+
+const handleFiles = (e) => {
+  const selectedFile = [...fileInput.files];
+  const fileReader = new FileReader();
+
+  fileReader.readAsDataURL(selectedFile[0]);
+
+  fileReader.onload = function () {
+    document.getElementById("previewImg").src = fileReader.result;
+  };
+};
+
+fileInput.addEventListener("change", handleFiles);
+</script>
 </html>

@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
@@ -13,6 +15,9 @@ import javax.persistence.*;
 @Table(name = "board")
 public class BoardEntity extends TimeEntity {
 
+
+    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL)
+    private List<Attachment> attachedFiles = new ArrayList<>();
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
