@@ -16,8 +16,6 @@ import java.util.List;
 public class BoardEntity extends TimeEntity {
 
 
-    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL)
-    private List<Attachment> attachedFiles = new ArrayList<>();
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;

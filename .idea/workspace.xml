@@ -5,29 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0e69d0-a937-4231-b2bc-e61888bab484" name="Changes" comment="firebase update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/ImgEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/repository/ImgRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/FireBaseInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/FireBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ServiceAccountKey.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/CkeditorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/ImageEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/serviceAccountKey.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/serviceAccountKey.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/board/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/board/write.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/BoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/BoardEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/write.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +57,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="package-info" />
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -100,11 +92,16 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\static\js" />
       <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\static\css" />
+      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\static\js" />
       <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\templates\board" />
-      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook" />
+      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources\templates" />
+      <recent name="C:\Users\hoooo\github_workspace\mamuriYearBook\src\main\resources" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.chieyoun.board.config" />
@@ -324,5 +321,20 @@
     <MESSAGE value="readme update" />
     <MESSAGE value="firebase update" />
     <option name="LAST_COMMIT_MESSAGE" value="firebase update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/FireBaseService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLIntegrityConstraintViolationException" package="java.sql" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
