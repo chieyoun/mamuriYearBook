@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/qqqq-pro?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/mamuri?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: 1234
 
@@ -22,6 +22,9 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
-app:
-  firebase-configuration-file: ./ServiceAccountKey.json
-  firebase-bucket: mamuri-2b044.appspot.com/
+
+server:
+  port: 8090
+#app:
+#  firebase-configuration-file: ./ServiceAccountKey.json
+#  firebase-bucket: mamuri-2b044.appspot.com/
