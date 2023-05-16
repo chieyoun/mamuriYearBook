@@ -24,7 +24,7 @@ public class Item {
 
     private String name;
 
-    private String text; // 물건에 대한 상세설명
+    private String editor; // 물건에 대한 상세설명
 
     private int price; // 가격
 

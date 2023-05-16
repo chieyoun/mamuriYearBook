@@ -5,113 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0e69d0-a937-4231-b2bc-e61888bab484" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/config/auth/PrincipalDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/SellerPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/UserPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/cart/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/cartitem/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/cartitem/CartItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/item/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/orderitem/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/orderitem/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/sale/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/sale/SaleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/saleitem/SaleItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/saleitem/SaleItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/SaleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/UserPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/web/dto/auth/SignupDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/itemList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/itemView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemModify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/saleList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/sellerPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userCart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userOrderList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userModify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ckeditor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/serviceAccountKey.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/serviceAccountKey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/board.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/board.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/board/write.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/common/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/common/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/add-save.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/BoardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/CkeditorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/MyUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/config/auth/PrincipalDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/BoardEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/ImageEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/ImgEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/TimeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/repository/BoardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/repository/ImgRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/dto/BoardDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/FireBaseInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/FireBaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/MyUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ServiceAccountKey.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ServiceAccountKey.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/board.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/board.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/write.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/add-save.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/domain/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chieyoun/board/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemView.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seller/itemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seller/itemManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seller/itemModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/itemModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seller/saleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/saleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seller/sellerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seller/sellerPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userOrderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userOrderList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userModify.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

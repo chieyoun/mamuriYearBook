@@ -77,7 +77,7 @@ public class ItemService {
 
         Item update = itemRepository.findItemById(id);
         update.setName(item.getName());
-        update.setText(item.getText());
+        update.setEditor(item.getEditor());
         update.setPrice(item.getPrice());
         update.setStock(item.getStock());
         update.setIsSoldout(item.getIsSoldout());

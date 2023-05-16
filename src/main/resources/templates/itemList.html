@@ -63,11 +63,11 @@
             </form>
 
             <form class="d-flex" sec:authorize="hasRole('ROLE_SELLER')">
-                <a class="btn btn-outline-dark" href="#" th:text="|현재수익 : ${user.getCoin()} ₩|">
-                    현재잔액 : 10000 ₩
-                </a>
+<!--                <a class="btn btn-outline-dark" href="#" th:text="|현재수익 : ${user.getCoin()} ₩|">-->
+<!--                    현재잔액 : 10000 ₩-->
+<!--                </a>-->
                 <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${user.getId()})}" th:text="|${user.getName()}님 환영합니다.|">
-                    판매자 페이지
+                    관리자 페이지
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}">
                     로그아웃
@@ -99,9 +99,9 @@
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name\-->
-                            <h5 class="fw-bolder" th:text="${item.getName()}">아이템이름</h5>
+                            <h5 class="fw-bolder" th:text="${item.getName()}">상품이름</h5>
                             <!-- Product price-->
-                            <p th:text="|${item.getPrice()} 원|">아이템 가격</p>
+                            <p th:text="|${item.getPrice()} 원|">상품 가격</p>
                         </div>
                     </div>
                     <!-- Product actions-->

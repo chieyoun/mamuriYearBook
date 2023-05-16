@@ -21,11 +21,11 @@
                 <li class="nav-item"><a class="nav-link" href="#" th:href="@{/seller/manage/{id}(id=${user.getId()})}">Manage</a></li>
             </ul>
             <form class="d-flex">
-                <a class="btn btn-outline-dark" href="#" th:text="|현재수익 : ${user.getCoin()} ₩|">
-                    현재잔액 : 10000 ₩
-                </a>
+<!--                <a class="btn btn-outline-dark" href="#" th:text="|현재수익 : ${user.getCoin()} ₩|">-->
+<!--                    현재잔액 : 10000 ₩-->
+<!--                </a>-->
                 <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${user.getId()})}" th:text="|${user.getName()}님 환영합니다.|">
-                    판매자 페이지
+                    관리자 페이지
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}">
                     로그아웃
@@ -59,13 +59,29 @@
                             Your name is required.
                         </div>
                     </div>
+<!--                    <div class="col-12">-->
+<!--                        <label for="editor" class="form-label">상품 설명</label>-->
+<!--                        <input type="text" class="form-control" name="text" id="editor" th:placeholder="${item.getText()}">-->
+<!--                        <div class="invalid-feedback">-->
+<!--                            Input is empty.-->
+<!--                        </div>-->
+<!--                    </div>-->
+
                     <div class="col-12">
-                        <label for="text" class="form-label">상품 설명</label>
-                        <input type="text" class="form-control" name="text" id="text" th:placeholder="${item.getText()}">
+                        <label class="form-label">상품 설명</label>
+                        <!--                    <input type="text" class="form-control" name="text" id="text" placeholder="상품 설명을 입력하세요.">-->
+                        <textarea class="form-control" name="text" id="editor" th:placeholder="${item.getEditor()}"></textarea>
+
+                        <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+                        <script>
+                      ClassicEditor.create( document.querySelector( '#editor' ) );
+                    </script>
+
                         <div class="invalid-feedback">
                             Input is empty.
                         </div>
                     </div>
+
                     <div class="col-12">
                         <label for="price" class="form-label">상품 가격</label>
                         <input type="text" class="form-control" id="price" name="price" th:placeholder="${item.getPrice()}">
