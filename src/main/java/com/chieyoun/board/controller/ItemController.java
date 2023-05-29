@@ -70,7 +70,6 @@ public class ItemController {
         if(principalDetails.getUser().getRole().equals("ROLE_SELLER")) {
             // 판매자
             model.addAttribute("user", principalDetails.getUser());
-
             return "/seller/itemForm";
         } else {
             // 일반 회원이면 거절 -> main
